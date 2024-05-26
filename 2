@@ -1,0 +1,23 @@
+public class ArithmeticOperations {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.print("Введите первое число a: ");
+        int a = scanner.nextInt();
+        
+        System.out.print("Введите второе число b: ");
+        int b = scanner.nextInt();
+        
+        int sum = a + b;
+        int difference = a - b;
+        int division = a / b;
+        int multiplication = a * b;
+        
+        System.out.println("Сумма a и b: " + sum);
+        System.out.println("Разность a и b: " + difference);
+        System.out.println("Деление a на b: " + division);
+        System.out.println("Умножение a на b: " + multiplication);
+        
+        scanner.close();
+    }
+}
